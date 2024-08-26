@@ -1,3 +1,5 @@
+
+
 .side-menu{
   display: none;
 }
@@ -123,7 +125,7 @@ a {
 .top-right ul {
   list-style-type: none;
   display: flex;
-  gap: 10px!important;
+  gap: 50px!important;
   padding: 5px;
 
 
@@ -301,6 +303,16 @@ text-decoration-thickness: 300;
   .nav-drop{
     display: none;
   }
+  .topcontrol{
+   
+    width:100%!important;
+    background-color: #f0f0f0;
+    border: 3px solid gainsboro;
+     position: sticky;
+      top:0px;
+  
+  }
+  
   .nav-item:hover .nav-drop {
     display: none;
   }
@@ -315,8 +327,6 @@ text-decoration-thickness: 300;
     width:100%!important;
     background-color: #f0f0f0;
     border: 3px solid gainsboro;
-     position: sticky;
-      top:0px;
 
   }
   .top-right {
@@ -1300,7 +1310,6 @@ gap:200px;
     margin-left: 10px;
   }
 }
-
 
 
 
